@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorWhite"
+    tools:context=".medicineInformationActivity">
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Drug name(Company name)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/hospitalEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Side Effects "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/locationEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_marginTop="15dp"
+        android:text="Save Data"
+        android:textColor="#E91E63"
+        android:id="@+id/saveDataButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_marginTop="15dp"
+        android:text="Load Data"
+        android:textColor="#E91E63"
+        android:id="@+id/loadDataButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

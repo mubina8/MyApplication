@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorWhite"
+    tools:context=".HealthCareActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:src="@drawable/bp"
+                />
+            <TextView
+                android:id="@+id/bpId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BLOOD PRESSURE"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/diabetes" />
+
+            <TextView
+                android:id="@+id/diabetesId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIABETES"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/eyedrop" />
+
+            <TextView
+                android:id="@+id/eyeDropId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EYE DROP"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/gastrictrouble" />
+
+            <TextView
+                android:id="@+id/gastricTroubleId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GASTRIC TROUBLE"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:src="@drawable/heartdisease"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:id="@+id/heartDiseaseId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HEART DISEASE"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:src="@drawable/kidneydisease"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:id="@+id/kidneyDiseaseId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KIDNEY DISEASE"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:src="@drawable/liverdisorder"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:id="@+id/liverDisorderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LIVER DISORDER"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:src="@drawable/muscleandjointpain"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:id="@+id/muscleAndJointPainId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MUSCLE AND JOINT PAIN"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:src="@drawable/skinproblem"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:id="@+id/skinProblemId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKIN PROBLEM"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:background="@color/colorPrimaryDark"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

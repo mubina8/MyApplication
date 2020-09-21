@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".yogaActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BHEKASANA"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimaryDark"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/bhekasanaTextViewId"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:justificationMode="inter_word"
+                android:text="@string/bhekasana"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DHANURASANA"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/dhanurasanaTextViewId"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:justificationMode="inter_word"
+                android:text="@string/dhanurasana"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SHALABHASANA"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/shalabhasanaifeStyleTextViewId"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:justificationMode="inter_word"
+                android:text="@string/shalabhasana"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DoctorInformationActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Drug name"
+        android:paddingTop="15dp"
+        android:inputType="text"
+        android:id="@+id/drugId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company Name"
+        android:paddingTop="15dp"
+        android:inputType="text"
+        android:id="@+id/companyNameId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dosage"
+        android:paddingTop="15dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/dosageId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medical Condition"
+        android:paddingTop="15dp"
+        android:inputType="text"
+        android:id="@+id/medicalConditionId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expiry Date"
+        android:paddingTop="15dp"
+        android:inputType="date"
+        android:id="@+id/expiryDateId"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Side Effects"
+        android:paddingTop="15dp"
+        android:inputType="text"
+        android:id="@+id/sideEffectsId"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPink"
+        android:layout_marginTop="30dp"
+        android:id="@+id/saveButtonId"
+        />
+
+</LinearLayout>

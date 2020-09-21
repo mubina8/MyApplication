@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="4dp"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Line1"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:padding="4dp"/>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardCornerRadius="4dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="7dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/tablet2" />
+
+                <TextView
+                    android:id="@+id/Penicilin"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageView"
+                    android:textSize="20dp"
+                    android:paddingLeft="4dp"
+                    android:text="Line2" />
+
+                <ImageView
+                    android:id="@+id/positive"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/positive"/>
+                <TextView
+                    android:id="@+id/dose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Penicilin"
+                    android:layout_toEndOf="@id/imageView"
+                    android:text="Line3"
+                    android:paddingLeft="5dp"/>
+            `</RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aust.healthmate">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".animationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cardActivity" />
+        <activity android:name=".searchActivity" />
+        <activity android:name=".Relative_Activity" />
+        <activity android:name=".Fragment" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".reminderActivity" />
+        <activity android:name=".detailsActivity" />
+        <activity android:name=".DoctorInformationActivity" />
+        <activity android:name=".bmiCalculator" />
+        <activity android:name=".diet1Activity" />
+        <activity android:name=".videoTipsActivity" />
+        <activity android:name=".generalTipsActivity" />
+        <activity android:name=".yogaActivity" />
+        <activity android:name=".addMedicineActivity" />
+        <activity android:name=".medicineInformationActivity" />
+        <activity android:name=".dietTipsActivity" />
+        <activity android:name=".diseaseDetailedActivity" />
+        <activity android:name=".HealthCareActivity" />
+        <activity android:name=".HealthMateActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <receiver android:name=".AlertReceiver" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
